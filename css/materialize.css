@@ -2967,6 +2967,12 @@ ul.staggered-list li {
   background-color: rgba(51, 51, 51, 0.08);
 }
 
+.horizontal li{
+  display: inline;
+  list-style-type: none;
+  padding: 0px 20px 0px 0px;
+}
+
 table, th, td {
   border: none;
 }
@@ -3463,6 +3469,15 @@ table span.badge {
 
 .section.no-pad-top {
   padding-top: 0;
+}
+
+.section::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
 
 .row {
@@ -4757,7 +4772,7 @@ small {
 }
 
 .card .card-title {
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -4944,6 +4959,10 @@ small {
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
+}
+
+.card-reveal>p{
+  line-height: 1.5rem;
 }
 
 #toast-container {
