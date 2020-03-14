@@ -148,7 +148,7 @@
         <h4 class="center">Our Journey</h4>
         <hr width="50"></hr>
         <div class="row">
-          <div class="col s12 m10">
+          <div class="col s12 m10" id="mains">
             <div id="one" class="section scrollspy">
               <h3>2012</h3>
               <div class="card-panel teal white-text">
@@ -239,7 +239,7 @@
       $('.sidenav').sidenav();
       $('.scrollspy').scrollSpy();
       $('#heads').pushpin({
-        top: $('#heads').offset().top + 300
+        top: $('#mains').offset().top + 300
       })
       $('.carousel.carousel-slider').carousel({
         fullWidth: true,
