@@ -9,9 +9,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap" rel="stylesheet"> 
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css' rel='stylesheet' />
   <script src="https://use.fontawesome.com/bab64e5818.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js'></script>
 </head>
 <body>
   <div class="navbar-fixed">
@@ -42,13 +43,13 @@
           <div class="carousel-fixed-item center">
             <a href ="#services" class="btn teal darken-3 waves-effect hide-on-med-and-down">Learn More</a>
           </div>
-          <div class="carousel-item red white-text" href="#one!">
+          <div class="carousel-item" href="#one!">
             <img src="images/1.png">
           </div>
-          <div class="carousel-item amber white-text" href="#two!">
+          <div class="carousel-item" href="#two!">
             <img src="images/2.png">
           </div>
-          <div class="carousel-item green white-text" href="#three!">
+          <div class="carousel-item" href="#three!">
             <img src="images/3.png">
           </div>
         </div>
@@ -128,29 +129,100 @@
         </div>
       </div>
   </div>
-
+  <div class="container section">
+    <div class="row">
+      <div class="col s12">
+        <h4 class="center">Work</h4>
+        <hr width="50"></hr>
+        <div class="row">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JfJYHfrOGgQ" frameborder="0" gesture="media" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container section" id="journey">
+    <div class="row">
+      <div class="col s12">
+        <h4 class="center">Our Journey</h4>
+        <hr width="50"></hr>
+        <div class="row">
+          <div class="col s12 m10">
+            <div id="one" class="section scrollspy">
+              <h3>2012</h3>
+              <div class="card-panel teal white-text">
+                <span>Duis irure dolor occaecat elit id. Ut elit nisi proident dolore duis dolore veniam. Aliqua id aliqua consectetur elit exercitation mollit aute non laborum amet dolore quis labore. Culpa officia ut reprehenderit fugiat consequat est proident aliqua Lorem. Amet est sint ipsum irure fugiat. Ea incididunt id ad cupidatat dolore elit velit. Exercitation commodo in velit non voluptate laborum nostrud.</span>
+              </div>
+            </div>
+            <div id="two" class="section scrollspy">
+              <h3>2014</h3>
+              <div class="card-panel brown white-text">
+                <span>Sit dolore sunt laboris proident adipisicing aliquip et velit do aute aliquip dolore quis. Aliqua velit do tempor adipisicing excepteur. Adipisicing in do mollit elit id. Non consectetur cillum exercitation elit cillum consequat pariatur sunt exercitation nostrud nostrud culpa quis.</span>
+              </div>
+            </div>
+            <div id="three" class="section scrollspy">
+              <h3>2016</h3>
+              <div class="card-panel blue-grey white-text">
+                <span>Et incididunt est ea consectetur incididunt pariatur aliqua ea nostrud occaecat occaecat deserunt. Exercitation aute sint id labore duis voluptate voluptate Lorem eu ad sunt laboris et. Fugiat ea mollit dolore aute in eu cupidatat reprehenderit laborum ad commodo cillum qui Lorem. Voluptate consectetur esse eiusmod velit aute tempor eiusmod.</span>
+              </div>
+            </div>
+            <div id="four" class="section scrollspy">
+              <h3>2018</h3>
+              <div class="card-panel indigo white-text">
+                <span>Duis irure dolor occaecat elit id. Ut elit nisi proident dolore duis dolore veniam. Aliqua id aliqua consectetur elit exercitation mollit aute non laborum amet dolore quis labore. Culpa officia ut reprehenderit fugiat consequat est proident aliqua Lorem. Amet est sint ipsum irure fugiat. Ea incididunt id ad cupidatat dolore elit velit. Exercitation commodo in velit non voluptate laborum nostrud.</span>
+              </div>
+            </div>
+            <div id="five" class="section scrollspy">
+              <h3>2020</h3>
+              <div class="card-panel cyan white-text">
+                <span>Duis irure dolor occaecat elit id. Ut elit nisi proident dolore duis dolore veniam. Aliqua id aliqua consectetur elit exercitation mollit aute non laborum amet dolore quis labore. Culpa officia ut reprehenderit fugiat consequat est proident aliqua Lorem. Amet est sint ipsum irure fugiat. Ea incididunt id ad cupidatat dolore elit velit. Exercitation commodo in velit non voluptate laborum nostrud.</span>
+              </div>
+            </div>
+          </div>
+          <div class="col hide-on-small-only m2">
+              <div id="heads">
+                <ul class="section table-of-contents">
+                  <li><a href="#one">2012</a></li>
+                  <li><a href="#two">2014</a></li>
+                  <li><a href="#three">2016</a></li>
+                  <li><a href="#four">2018</a></li>
+                  <li><a href="#five">2020</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="page-footer black">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">MFP STUDIO</h5>
+          <h5 class="white-text">About Us</h5>
           <span class="grey-text text-lighten-4">
-          A-21, Street No.3, Guru Nanak Pura, Laxmi Nagar, Delhi-110092<br/>+918851246238<br/><a href="mailto:movingframeproductions@gmail.com">movingframeproductions@gmail.com</a></span>
+            MOVING FRAME PRODUCTIONS (MFP) is a professional Production House, Film Institute & Digital Entertainment Channel in New Delhi, India. It was founded in the year 2012 by Mr. Rohit Kumar Trivedi.
+
+            We are crackerjack in Short Films, Promotional Videos, Corporate Videos, Education & Training Videos, Ad Films, Web Series, Event & Wedding Films, Feature Films, Fashion & Product Photo Shoot, Explainers (Business Explainers & Product Demo), Music Videos (HD, Full HD, 4K), etc. We strive to provide an exceptional service that always delivers on time & in your budget.
+          </span>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Social</h5>
-          <ul class="horizontal">
+          <h5 class="white-text">Come, Say Hi! </h5>
+          <div id="map"></div>
+        </div> 
+      </div>
+    </div>
+    <div class="footer-copyright white-text">
+      <div class="container">
+        <div class="row center">
+            © Moving Frame Productions
+        </div>
+        <div class="row center">
+          <ul class="horizontal center">
             <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook"></i></a></li>
             <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-youtube"></i></a></li>
             <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram"></i></a></li>
             <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter"></i></a></li>
-          </ul>
+          </ul> 
         </div>
-      </div>
-    </div>
-    <div class="footer-copyright white-text">
-      <div class="container center">
-        © MOVING FRAME PRODUCTIONS
       </div>
     </div>
   </footer>
@@ -160,10 +232,13 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/main.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       $('.sidenav').sidenav();
+      $('.scrollspy').scrollSpy();
+      $('#heads').pushpin({
+        top: $('#heads').offset().top + 200
+      })
       $('.carousel.carousel-slider').carousel({
         fullWidth: true,
         indicators: true
@@ -183,6 +258,19 @@
         }
       });
     });
+  </script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYW5pcmJhbmJob3dtaWs5NCIsImEiOiJjazdybnpuNG0wYzFzM2xxcjFidDN0cWVhIn0.8_LlSXn7i9BDyXRPOc-_WA';
+    var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+    center: [77.285075,28.636586], // starting position [lng, lat]
+    zoom: 14 // starting zoom
+    });
+    new mapboxgl.Marker()
+    .setLngLat([77.285075,28.636586])
+    .addTo(map);
+    map.addControl(new mapboxgl.NavigationControl());
   </script>
 
   </body>
