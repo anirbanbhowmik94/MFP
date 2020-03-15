@@ -4999,6 +4999,10 @@ small {
   }
 }
 
+.material-icons.vlarge{
+  font-size: 8rem;
+}
+
 .toast {
   border-radius: 2px;
   top: 35px;
@@ -7553,6 +7557,7 @@ input[type=range]::-ms-thumb {
 
 #heads{
   margin-top: 100px;
+  position: relative;
 }
 
 .sidenav {
