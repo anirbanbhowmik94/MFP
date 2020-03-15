@@ -7552,7 +7552,6 @@ input[type=range]::-ms-thumb {
 }
 
 #heads{
-  z-index: 999;
   margin-top: 100px;
 }
 
@@ -8399,7 +8398,6 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel.carousel-slider {
-  top: 0;
   left: 0;
 }
 
@@ -8421,17 +8419,28 @@ input[type=range]::-ms-thumb {
   min-height: 400px;
   position: absolute;
   top: 0;
-  left: 0;
 }
 
 .carousel.carousel-slider .carousel-item h2 {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
 }
 
 .carousel.carousel-slider .carousel-item p {
   font-size: 15px;
+  color: grey;
+}
+
+.carousel.carousel-slider .carousel-item span {
+  font-size: 20px;
+  color: #424242;
+}
+
+.carousel.carousel-slider .carousel-item span.work {
+  font-size: 15px;
+  color: grey;
+  display: block;
 }
 
 .carousel .carousel-item {
