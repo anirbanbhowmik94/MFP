@@ -2944,6 +2944,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
+  font-size: 0.9rem;
   background-color: #ee6e73;
 }
 
@@ -5884,6 +5885,8 @@ body.keyboard-focused .dropdown-content li:focus {
   -webkit-tap-highlight-color: transparent;
   line-height: 1.5;
   padding: 1rem;
+  font-weight: 600;
+  font-size: 1.8rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
@@ -5894,7 +5897,7 @@ body.keyboard-focused .dropdown-content li:focus {
 
 .collapsible-header i {
   width: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   display: inline-block;
   text-align: center;
   margin-right: 1rem;
@@ -5910,6 +5913,8 @@ body.keyboard-focused .dropdown-content li:focus {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 2rem;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .sidenav .collapsible,
